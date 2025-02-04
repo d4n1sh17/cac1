@@ -1,0 +1,60 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "The Great Gatsby",
+            "author_id": 1,
+            "genre": "Classic",
+            "price": 1099,
+            "published_year": 1925,
+            "stock": 5,
+            "sold_copies": 100
+        },
+        {
+            "id": 2,
+            "title": "To Kill a Mockingbird",
+            "author_id": 2,
+            "genre": "Fiction",
+            "price": 1299,
+            "published_year": 1960,
+            "stock": 3,
+            "sold_copies": 150
+        }
+    ],
+    "authors": [
+        {
+            "id": 1,
+            "name": "F. Scott Fitzgerald"
+        },
+        {
+            "id": 2,
+            "name": "Harper Lee"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "danish khan",
+            "email": "danish.khan@example.com"
+        },
+        {
+            "id": 2,
+            "name": "ryan chakco",
+            "email": "ryan.chakco@example.com"
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "customer_id": 1,
+            "book_id": 1,
+            "quantity": 2
+        },
+        {
+            "id": 2,
+            "customer_id": 2,
+            "book_id": 2,
+            "quantity": 1
+        }
+    ]
+}
